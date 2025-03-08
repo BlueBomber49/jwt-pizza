@@ -121,6 +121,7 @@ function PersonIcon() {
   );
 }
 
+
 function EmailIcon() {
   return (
     <svg
