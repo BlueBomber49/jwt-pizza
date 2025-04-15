@@ -10,7 +10,7 @@
     
     Images: 
     
-![image](../penetrationTests/createFranchise.png)
+![image](createFranchise.png)
 ![image](createStore.png)  
 
     Fix: Check for the correct level of authorization on those pages
@@ -30,7 +30,6 @@
     UPDATE user SET password='hashedpassword', email='hacker@jwt.com', id = '1' WHERE id=5911
     
     Image: 
-    <img width="1453" alt="Screenshot 2025-04-15 at 1 22 17 PM" src="https://github.com/user-attachments/assets/07c4a6d6-5b44-4faa-9f8f-923d6ed89d85" />
+![image](peerTest.png) 
 
-    
     Fix: Sanitize user inputs
