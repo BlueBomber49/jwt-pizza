@@ -8,11 +8,13 @@
     
     Description: Can navigate to the create franchise or create store pages without being logged in by using the correct URL.  However, without an authtoken, the requests to create a store or franchise get denied.
     
-    Images: ![image](../penetrationTests/createFranchise.png)
-    ![image](createStore.png)
+    Images: 
   
     Fix: Check for the correct level of authorization on those pages
-  
+    
+![image](../penetrationTests/createFranchise.png)
+![image](createStore.png)  
+
 ## Peer attacks:
   ### Tony attacking Benson:
   
