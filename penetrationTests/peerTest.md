@@ -9,7 +9,6 @@
     Description: Can navigate to the create franchise or create store pages without being logged in by using the correct URL.  However, without an authtoken, the requests to create a store or franchise get denied.
     
     Images: 
-    <img width="1451" alt="Screenshot 2025-04-15 at 12 57 15 PM" src="https://github.com/user-attachments/assets/a72cfdc1-3d37-4278-b357-5c3f49c7b224" />
   <img width="1451" alt="Screenshot 2025-04-15 at 12 57 28 PM" src="https://github.com/user-attachments/assets/9bc52eb8-7b3c-42b8-b75f-85a649282069" />
   
     Fix: Check for the correct level of authorization on those pages
@@ -29,6 +28,7 @@
     UPDATE user SET password='hashedpassword', email='hacker@jwt.com', id = '1' WHERE id=5911
     
     Image: 
-    <img width="1453" alt="Screenshot 2025-04-15 at 1 22 17 PM" src="https://github.com/user-attachments/assets/1a6f9dfa-c493-4241-80c6-ac92bce07686" />
+    <img width="1453" alt="Screenshot 2025-04-15 at 1 22 17 PM" src="https://github.com/user-attachments/assets/07c4a6d6-5b44-4faa-9f8f-923d6ed89d85" />
+
     
     Fix: Sanitize user inputs
