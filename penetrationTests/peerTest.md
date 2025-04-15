@@ -8,8 +8,8 @@
     
     Description: Can navigate to the create franchise or create store pages without being logged in by using the correct URL.  However, without an authtoken, the requests to create a store or franchise get denied.
     
-    Images: 
-  <img width="1451" alt="Screenshot 2025-04-15 at 12 57 28 PM" src="https://github.com/user-attachments/assets/9bc52eb8-7b3c-42b8-b75f-85a649282069" />
+    Images: ![image](./createFranchise.png)
+    ![image](./createFranchise.png)
   
     Fix: Check for the correct level of authorization on those pages
   
