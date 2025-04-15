@@ -32,6 +32,6 @@
     UPDATE user SET password='hashedpassword', email='hacker@jwt.com', id = '1' WHERE id=5911
     
     Image: 
-![image](peerTest.png) 
+![image](SQL injection.png) 
 
     Fix: Sanitize user inputs
